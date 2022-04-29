@@ -1,0 +1,39 @@
+a)
+    '''list -> num
+        return sum of 3rd and 4th largest num in a list
+        big o is (n) '''
+a = [1000,1,100,2,99,200,100]
+print(largest_34(a))
+199
+b = [1000,1,100,2,99,200,100,500]
+print(largest_34(b))
+300
+b)
+    '''compute the len(a)//3 largest elements in a 
+        big o is (n*log(n))'''
+a = [1000,1,100,2,99,200,100]
+
+a2 = [1000,1,100,2,99,200,100,300,400]
+largest_3rd(a)
+1200
+largest_3rd(a2)
+1700
+c)
+    '''list -> num/none
+        return a value in a appear at least len(a)//3 + 1 times
+        big O is (n)'''
+b = [5,5,5,5,5,5,5,5]
+a = [1000,1,100,2,99,200,100]
+third_at_least(a)
+nothing comes out
+third_at_least(b)
+5
+d)
+    '''list+num -> bool
+        return true if three num is list add together == x
+        big o is n**3'''
+c = [1,5,8,2,6,55,90]
+sum_tri(c,103)
+True
+sum_tri(c,1033)
+False

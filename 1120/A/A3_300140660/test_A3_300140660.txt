@@ -1,0 +1,297 @@
+Q1
+
+triples("abc")
+False
+triples("abbbcdeeggggg")
+True
+triples("abc2eee")
+True
+
+Q2
+momo("abcccd")
+'a1b1c3d1'
+momo("a")
+'a1'
+momo("aabbbccccx")
+'a2b3c4x1'
+momo("aaa1111")
+'a314'
+
+Q3
+sum_odd_divisors(-9)
+13
+sum_odd_divisors(1)
+1
+sum_odd_divisors(2)
+1
+sum_odd_divisors(3)
+4
+sum_odd_divisors(7)
+8
+sum_odd_divisors(-2001)
+2880
+
+Q4
+Hello. My name is Robot and I am the dealer.
+Welcome to my card game!
+Your current deck of cards is:
+K♠ 8♣ Q♡ 9♢ 10♢ 9♣ K♢ 7♠ 9♡ 7♡ 10♠ A♣ 7♢ 6♣ Q♠ A♡ J♠ 2♣ J♣ 3♣ A♠ 2♢ 7♣ 2♡ A♢ 3♢ 
+
+Do not worry. I cannot see the order of your cards
+Now discard all the pairs from your deck. I will do the same.
+
+Press enter to continue. 
+
+***********************************************************
+Your turn.
+
+Your current deck of cards is:
+2♣ 8♣ 6♣ 9♣ 
+
+I have 5 cards. If 1 stands for my first card and
+5 for my last card, which of my cards would you like?
+Give me an integer between 1 and 5: 5
+You asked for my 5th card.
+Here it is. It is2♠
+
+With 2♠ added, your current deck of cards is:
+2♣ 8♣ 6♣ 9♣ 2♠ 
+
+And after discarding pairs and shuffling, your deck is:
+9♣ 6♣ 8♣ 
+
+
+Press enter to continue. 
+
+***********************************************************
+My turn.
+
+I took your 1st card.
+
+Press enter to continue. 
+
+***********************************************************
+Your turn.
+
+Your current deck of cards is:
+6♣ 8♣ 
+
+I have 3 cards. If 1 stands for my first card and
+3 for my last card, which of my cards would you like?
+Give me an integer between 1 and 3: 1
+You asked for my 1nd card.
+Here it is. It is8♢
+
+With 8♢ added, your current deck of cards is:
+6♣ 8♣ 8♢ 
+
+And after discarding pairs and shuffling, your deck is:
+6♣ 
+
+
+Press enter to continue. 
+
+***********************************************************
+My turn.
+
+I took your 1st card.
+
+Press enter to continue. 
+
+***********************************************************
+Ups. You do not have any more cards
+Congratulations! You, Human, win
+
+============== RESTART: E:\daima\1120\A3_300140660\Q4_students.py ==============
+Hello. My name is Robot and I am the dealer.
+Welcome to my card game!
+Your current deck of cards is:
+9♣ K♢ 10♠ 4♡ J♢ 6♡ J♡ 3♡ 5♠ Q♡ 9♠ 9♡ K♠ 6♣ A♠ 10♡ 3♢ 8♣ 3♠ 10♢ A♢ 8♡ 2♣ 6♢ 10♣ Q♢ 
+
+Do not worry. I cannot see the order of your cards
+Now discard all the pairs from your deck. I will do the same.
+
+Press enter to continue. 
+
+***********************************************************
+Your turn.
+
+Your current deck of cards is:
+2♣ 3♢ 4♡ 6♣ 5♠ 9♣ 
+
+I have 7 cards. If 1 stands for my first card and
+7 for my last card, which of my cards would you like?
+Give me an integer between 1 and 7: 5
+You asked for my 5th card.
+Here it is. It is9♢
+
+With 9♢ added, your current deck of cards is:
+2♣ 3♢ 4♡ 6♣ 5♠ 9♣ 9♢ 
+
+And after discarding pairs and shuffling, your deck is:
+3♢ 4♡ 2♣ 6♣ 5♠ 
+
+
+Press enter to continue. 
+
+***********************************************************
+My turn.
+
+I took your 4th card.
+
+Press enter to continue. 
+
+***********************************************************
+Your turn.
+
+Your current deck of cards is:
+3♢ 4♡ 2♣ 5♠ 
+
+I have 5 cards. If 1 stands for my first card and
+5 for my last card, which of my cards would you like?
+Give me an integer between 1 and 5: 4
+You asked for my 4th card.
+Here it is. It is3♣
+
+With 3♣ added, your current deck of cards is:
+3♢ 4♡ 2♣ 5♠ 3♣ 
+
+And after discarding pairs and shuffling, your deck is:
+2♣ 4♡ 5♠ 
+
+
+Press enter to continue. 
+
+***********************************************************
+My turn.
+
+I took your 1st card.
+
+Press enter to continue. 
+
+***********************************************************
+Your turn.
+
+Your current deck of cards is:
+4♡ 5♠ 
+
+I have 3 cards. If 1 stands for my first card and
+3 for my last card, which of my cards would you like?
+Give me an integer between 1 and 3: 99
+Invalid number. Please enter integer between 1 and 3: 55
+Invalid number. Please enter integer between 1 and 3: 1
+You asked for my 1nd card.
+Here it is. It is4♣
+
+With 4♣ added, your current deck of cards is:
+4♡ 5♠ 4♣ 
+
+And after discarding pairs and shuffling, your deck is:
+5♠ 
+
+
+Press enter to continue. 
+
+***********************************************************
+My turn.
+
+I took your 1st card.
+
+Press enter to continue. 
+
+***********************************************************
+Ups. You do not have any more cards
+Congratulations! You, Human, win
+
+============== RESTART: E:\daima\1120\A3_300140660\Q4_students.py ==============
+Hello. My name is Robot and I am the dealer.
+Welcome to my card game!
+Your current deck of cards is:
+8♢ 6♡ 5♡ 9♠ 9♣ 4♡ 2♡ 6♣ A♡ A♢ 8♣ J♠ Q♢ A♣ 8♡ 4♠ 3♡ 6♢ 5♣ 6♠ J♡ K♣ 3♠ 10♠ 4♢ 2♢ 
+
+Do not worry. I cannot see the order of your cards
+Now discard all the pairs from your deck. I will do the same.
+
+Press enter to continue. 
+
+***********************************************************
+Your turn.
+
+Your current deck of cards is:
+10♠ 8♣ A♣ 4♢ Q♢ K♣ 
+
+I have 5 cards. If 1 stands for my first card and
+5 for my last card, which of my cards would you like?
+Give me an integer between 1 and 5: 1
+You asked for my 1nd card.
+Here it is. It is10♣
+
+With 10♣ added, your current deck of cards is:
+10♠ 8♣ A♣ 4♢ Q♢ K♣ 10♣ 
+
+And after discarding pairs and shuffling, your deck is:
+K♣ Q♢ A♣ 4♢ 8♣ 
+
+
+Press enter to continue. 
+
+***********************************************************
+My turn.
+
+I took your 4th card.
+
+Press enter to continue. 
+
+***********************************************************
+Your turn.
+
+Your current deck of cards is:
+K♣ Q♢ A♣ 8♣ 
+
+I have 3 cards. If 1 stands for my first card and
+3 for my last card, which of my cards would you like?
+Give me an integer between 1 and 3: 1
+You asked for my 1nd card.
+Here it is. It isA♠
+
+With A♠ added, your current deck of cards is:
+K♣ Q♢ A♣ 8♣ A♠ 
+
+And after discarding pairs and shuffling, your deck is:
+8♣ Q♢ K♣ 
+
+
+Press enter to continue. 
+
+***********************************************************
+My turn.
+
+I took your 1st card.
+
+Press enter to continue. 
+
+***********************************************************
+Your turn.
+
+Your current deck of cards is:
+Q♢ K♣ 
+
+I have 1 cards. If 1 stands for my first card and
+1 for my last card, which of my cards would you like?
+Give me an integer between 1 and 1: 1
+You asked for my 1nd card.
+Here it is. It isK♢
+
+With K♢ added, your current deck of cards is:
+Q♢ K♣ K♢ 
+
+And after discarding pairs and shuffling, your deck is:
+Q♢ 
+
+
+Press enter to continue. 
+
+Ups. I do not have any more cards
+You lost! I, Robot, win
+
+

@@ -1,0 +1,88 @@
+# test Q1
+travelTime(400,100)
+240.0
+travelTime(20.6,60)
+20.6
+travelTime(100,10)
+600.0
+#test Q2
+finalMark(100,100,100,100,100)
+100.0
+finalMark(50,90.5,60,80,70)
+74.42
+finalMark(90,80,90,80,85)
+83.55
+# test Q3
+bibformat("Antoine de Saint Exupery", "Le petit prince", "Paris", "jeunesse",1943)
+"'Antoine de Saint Exupery(1943). Le petit prince. Paris: jeunesse'"
+bibformat("PeopleOne","name","city","peopleTwo",2022)
+"'PeopleOne(2022). name. city: peopleTwo'"
+# test Q4
+bibformatPrint()
+Enter the name of the author: Antoine de Saint Exupery
+Enter the titel of the book: Le petit prince
+In what city the headquarters of the publisher? Paris
+Enter the name of the publisher: jeunesse
+What year was the book published? 1943
+'Antoine de Saint Exupery(1943). Le petit prince. Paris: jeunesse'
+bibformatPrint()
+Enter the name of the author: Author
+Enter the titel of the book: Boooook
+In what city the headquarters of the publisher? Ottawa
+Enter the name of the publisher: SomeOne
+What year was the book published? 2022
+'Author(2022). Boooook. Ottawa: SomeOne'
+# test Q5
+in_out(0,0,2.5)
+Please enter the x for query point: 0
+Please enter the y for query point: 1.2
+True
+in_out(2.5,1,1)
+Please enter the x for query point: -1
+Please enter the y for query point: 1.5
+Flase
+in_out(-2.5,1,2.1)
+Please enter the x for query point: -1
+Please enter the y for query point: 1.5
+True
+in_out(1,1,1)
+Please enter the x for query point: 0.3
+Please enter the y for query point: 0.5
+Flase
+# test Q6
+cad_cashier(10.58,11)
+0.4
+cad_cashier(98.87,100)
+1.15
+cad_cashier(10.58,15)
+4.4
+cad_cashier(10.55,15)
+4.45
+cad_cashier(10.54,15)
+4.45
+cad_cashier(10.52,15)
+4.5
+cad_cashier(10.50,15)
+4.5
+cad_cashier(100,100)
+0.0
+# test Q6
+min_CAD_coins(10.58,11)
+(0, 0, 1, 1, 1)
+min_CAD_coins(98.87,100)
+(0, 1, 0, 1, 0)
+min_CAD_coins(10.58,15)
+(2, 0, 1, 1, 1)
+min_CAD_coins(10.55,15)
+(2, 0, 1, 2, 0)
+min_CAD_coins(10.54,15)
+(2, 0, 1, 2, 0)
+min_CAD_coins(10.52,15)
+(2, 0, 2, 0, 0)
+min_CAD_coins(10.50,15)
+(2, 0, 2, 0, 0)
+min_CAD_coins(3,20)
+(8, 1, 0, 0, 0)
+
+
+

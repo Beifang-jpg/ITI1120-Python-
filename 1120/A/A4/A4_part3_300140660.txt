@@ -1,0 +1,14 @@
+set1 = {1,2,3,4,5}
+list1 = [9,8,7,6,5,4,12,13]
+print(overlap(set1, list1))
+{4, 5}
+set2 = {1,2,3}
+print(overlap(set2, list1))
+nothing comes out
+map = {42:"mar",81:"sue",17:"edd",31:"daev",3:"mar",19:"sue"}
+print(reverse(map))
+{'mar': [42, 3], 'sue': [81, 19], 'edd': [17], 'daev': [31]}
+print(digit_root(1969))
+7
+print(digit_root(158))
+5

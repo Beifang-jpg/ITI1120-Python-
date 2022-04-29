@@ -1,0 +1,25 @@
+t1
+True False True
+t2
+<class 'str'>
+type[['This is a string']]
+<class 'str'>
+t3
+True
+False
+True
+[2, 4, 'oaxaca', True]
+[2, 4, 'oaxaca', False]
+[2, 4, 'oaxaca', False]
+t4
+d
+t5
+apple orange banana cherry 
+apple orange banana cherry 
+it will print "hi" and everyone's name and the "please come"
+t6
+1| 2| 4| 8| 16| 32| 
+1| 2| 4| 8| 16|
+1| 2| 4| 8|
+1| 2| 4|
+1| 2|
